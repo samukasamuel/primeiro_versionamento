@@ -1,0 +1,46 @@
+body{
+	background: #d2d2c1 url(Imagens/Fotos/fundo.png); /* colocaa cor de fundo e a imagem de fundo padrão na index */
+	font: 18px Arial, Helvetica,sans-serif;
+}
+
+#principal {    /* linca com a div principal */
+	/* border: 1px solid red; = cria uma borda vermelha ao redor o texto "principal"
+	Vamos deixare sem, foi apenas para vermos que há um contorno */
+	width: 980px; /* define a largura da div, largura padrão" / height: 500px; = define a altura da div" */ 
+}
+
+#menu {     /* linca com a div nenu */
+	background: #c5c5b2; /* colocaa cor de fundo nos links */
+	/* border: 1px solid red; =cria uma borda vermelha ao redor dos textos do link", vamos deixar sem*/
+	padding: 10px;  /* padding: aplica um espaçamento interno dos textos dos links */
+}
+
+#conteudo {
+	background: #e8e8d9; /* colocaa cor de fundo no "conteudo" */
+	padding: 10px;  /* padding: aplica um espaçamento interno em ambos os lados do "conteudo" */
+}
+
+#rodape {
+	text-align: center;
+}
+
+a {   /* estamos formatando todos os links "a" */
+	color: #4b566a; /* cor dos links "a" cinza */
+	text-decoration: none; /* nome tira um onderline dos links "a" */
+	font-weight: bold; /* colocamos a font bold nos links "a" */
+	/* border: 1px solid red;  coloca borda nos links "a", foi apenas para visualizar o padding  */
+	padding: 5px; /* criamos espaçamento entre as palavras dos links "a" */
+}
+
+.img-campanha { /* formatação para as imagens de campanha */
+	border: 10px solid #c3c3ae;
+}
+
+.centralizar {  /* cria uma classe "centralizar" para o "rodape" */
+	text-align: center; /* centraliza o texto do rodape */
+}
+
+h1 {   /* formata o texto h1 "Sobre Alice" */
+	color: #828271;
+	font-size: 1.2em;
+}
